@@ -32,6 +32,17 @@ npm start
 
 The Application Runs on **localhost:3000**
 
+## Usage
+
+Add your application configuration to your `.env` file in the root of your project:
+
+```shell
+REACT_APP_NEWS_API_KEY=NEWSAPIKEY
+REACT_APP_WEATHER_API_KEY=WEATHERAPIKEY
+```
+
+Whenever your application loads, these variables will be available in `ENV`:
+
 #### HTTP client
 
 **axios** library is used to make HTTP Calls

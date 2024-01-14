@@ -1,7 +1,10 @@
+// API's
 const NEWS_API = "https://newsapi.org/v2/";
-const NEWS_API_KEY = "1b828a7581874491b22f20413b56644a";
 const WEATHER_API = "https://api.openweathermap.org/data/2.5/";
-const WEATHER_API_KEY = "24416476ea82b1e5572d2b0e6cd1a1c6";
+
+// API Keys
+const NEWS_API_KEY = process.env.REACT_APP_NEWS_API_KEY;
+const WEATHER_API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
 const Configs = {
   NEWS_API,

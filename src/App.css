@@ -55,6 +55,7 @@
   );
   z-index: 1;
   border-radius: 20px;
+  max-height: 439px;
 }
 
 .hot-news-section .article-box img {
@@ -62,6 +63,8 @@
   width: 100%;
   height: auto;
   border-radius: 20px;
+  max-height: 439px;
+  object-fit: cover;
 }
 
 .hot-news-section .article-box .text {
@@ -171,7 +174,6 @@
   z-index: 1;
   box-shadow: 2px 5px 25px 0px #00000026;
 }
-
 
 /* Responsive Design (Mobile View) */
 @media only screen and (max-width: 600px) {
